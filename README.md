@@ -1,23 +1,23 @@
-# [Project Name] - Team [X]
+# Concrete Strength Prediction - Team 6
 
 **DATA 4950 Data Science Capstone | Spring 2026**
 
-**Team Members:** [List your names here]
+**Team Members:** Abel Berta, Markel Gregory
 
 ---
 
 ## Project Overview
 
-[Write 2-3 sentences describing your project. What problem are you solving? What data are you using?]
+We are building a predictive model to estimate concrete compressive strength from the mixture ingredients (cement, water, aggregates, additives) and the curing age. 
 
 ## Dataset
 
 | Item | Description |
 |------|-------------|
-| **Source** | [Where did you get the data?] |
-| **Size** | [How many rows and columns?] |
-| **Target Variable** | [What are you predicting?] |
-| **Task Type** | [Classification / Regression] |
+| **Source** | Yeh, I. (1998). Concrete Compressive Strength [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5PK67. |
+| **Size** | The dataset has 1,030 rows (concrete mixes) and 9 columns (8 input features plus 1 target) |
+| **Target Variable** | We are predicting concrete compressive strength, measured in megapascals |
+| **Task Type** | Regression, because the target is a continuous numeric value |
 
 ## Repository Structure
 
